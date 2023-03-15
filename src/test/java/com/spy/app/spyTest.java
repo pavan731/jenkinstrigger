@@ -10,4 +10,10 @@ class spyTest {
 		assertFalse(spy.spyy(1234));
 	}
 
+	@Test
+	void test() {
+		assertTrue(spy.spyy(1234));
+		
+	}
+
 }
