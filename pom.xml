@@ -22,6 +22,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <plugins>
     
     <plugin>
+      <groupId>org.apache.maven.plugin-testing</groupId>
+    <artifactId>maven-plugin-testing-harness</artifactId>
+    <version>3.3.0</version>
+    <scope>test</scope>
+    </plugin>
+    
+    <plugin>
       <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.8.1</version>
